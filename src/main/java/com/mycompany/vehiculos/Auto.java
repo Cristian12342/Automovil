@@ -23,6 +23,7 @@ public class Auto {
         private Color color;
         private double velocidadActual;
 
+        
         // Constructor
         public Auto(String marca, int modelo, double motor, Combustible tipoCombustible, TipoAutomovil tipoAutomovil, int numeroPuertas, int cantidadAsientos, double velocidadMaxima, Color color, double velocidadActual) {
             this.marca = marca;
